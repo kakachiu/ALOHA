@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="img/favicon.ico"/>
+    <meta name="description" content="您最佳旅遊飯店的選擇平台"/>
+    <meta name="keywords" content="ALOHA,aloha,旅遊,飯店"/>
+    <meta property="og:title" content="ALOHA"/>
+    <meta property="og:description" content="您最佳旅遊飯店的選擇平台"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://kakachiu.github.io/aloha/index.html"/>
+    <meta property="og:site_name" content="ALOHA 您最佳旅遊飯店的選擇平台"/>
+    <title>飯店預定清單</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&amp;family=Raleway:wght@400;500;700;800&amp;family=Roboto:wght@300&amp;display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css"/>
+    <link rel="stylesheet" href="css/swiper.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+  </head>
+  <body>
+    <nav class="navbar container memberNavbar">
+      <h1 class="logo"><a href="index.html"></a></h1>
+      <ul class="menu">
+        <li class="lang"><i class="fas fa-globe"></i>
+          <select>
+            <option value="English"> English</option>
+            <option value="繁體中文"> 繁體中文</option>
+          </select>
+        </li>
+        <li class="memberSelect">
+          <div class="photo"><img src="../img/photo.jpg" alt=""/></div>
+          <div class="name">Arianna Turner</div>
+          <div class="arrow"><i class="fas fa-sort-down"></i></div>
+        </li>
+      </ul>
+      <ul class="dropDown">
+        <li> <a href="member.html">會員中心</a></li>
+        <li><a href="login.html">登出 </a></li>
+      </ul>
+      <ul class="phoneMenu">
+        <li class="phoneIcon"><i class="fas fa-bars"></i></li>
+        <li class="phoneLogo"><a href="index.html"> </a></li>
+        <li class="photo"><img src="../img/photo.jpg" alt=""/></li>
+      </ul>
+      <ul class="phoneDropDown">
+        <li><a href="member.html">會員中心</a></li>
+        <li><a href="login.html">登出 </a></li>
+      </ul>
+    </nav>
+    <div class="toTop"><a href="#"><i class="fas fa-chevron-up arrowUp"></i>TOP</a></div>
+    <section class="member container">
+      <div class="bookings">
+        <h3 class="title">My Bookings</h3>
+        <div class="status"> <a class="active" href="#">Upcoming</a><a href="#">Completed</a></div>
+        <ul class="bookingList">
+          <li> 
+            <div class="img"><img src="img/type1.jpg" alt=""/></div>
+            <div class="bookingContent">
+              <ul class="content">
+                <li> 
+                  <div class="icon"><i class="fas fa-bed"></i></div>
+                  <div class="textContent">
+                    <p class="name">Rachada Hotel</p>
+                    <p class="text">Deluxe Suite with Pool</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon"><i class="far fa-calendar-alt"></i></div>
+                  <div class="textContent">
+                    <p class="name">17 June 2022 - 19 June 2022</p>
+                    <p class="text">2 nights・2 adults</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+                  <div class="textContent">
+                    <p class="name">TWD 13,084</p>
+                    <p class="text">includes taxes and charges</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="edit">VIEW DETAILS</div>
+            </div>
+          </li>
+          <li> 
+            <div class="img"><img src="img/type4.jpg" alt=""/></div>
+            <div class="bookingContent">
+              <ul class="content">
+                <li> 
+                  <div class="icon"><i class="fas fa-bed"></i></div>
+                  <div class="textContent">
+                    <p class="name">WOW Life Hotel</p>
+                    <p class="text">Standard Double Room</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon"><i class="far fa-calendar-alt"></i></div>
+                  <div class="textContent">
+                    <p class="name">8 Sep 2022 - 15 Sep 2022</p>
+                    <p class="text">7 nights・2 adults</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+                  <div class="textContent">
+                    <p class="name">TWD 4,633</p>
+                    <p class="text">includes taxes and charges</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="edit">VIEW DETAILS </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="profile">
+        <div class="header">
+          <div class="text">
+            <h3 class="title">Profile</h3><span class="verified"> <i class="fas fa-check"></i>
+              <p>VERIFIED</p></span>
+          </div>
+          <div class="edit">EDIT</div>
+        </div>
+        <div class="detail">
+          <div class="userDetail">
+            <div class="info">
+              <div class="title">User details</div>
+              <div class="photoPad">
+                <div class="img"><img src="img/photo.jpg" alt=""/></div>
+                <div class="textPad">
+                  <p class="text">Arianna Turner</p>
+                  <p class="text">Arianna0520@mail.com.tw</p>
+                  <p class="text">+886 9 32 456 789</p>
+                </div>
+              </div>
+              <p class="text">Arianna Turner</p>
+              <p class="text">Arianna0520@mail.com.tw</p>
+              <p class="text">+886 9 32 456 789</p>
+            </div>
+            <div class="photo"><img src="img/photo.jpg" alt=""/></div>
+          </div>
+          <div class="payment">
+            <div class="title">Payment methods</div>
+            <ul class="content">
+              <li>
+                <p>xxxx-xxxx-7890</p>
+                <p>Arianna Turner</p>
+                <p>08/2029</p>
+                <div class="visa"><i class="fab fa-cc-visa"></i></div>
+              </li>
+              <li>
+                <div class="add"><i class="fas fa-plus"></i></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer container">
+      <div class="footerText">
+        <p class="copyRight">© 2022 ALOHA, Inc. All rights reserved.</p>
+        <ul class="footerMenu">
+          <li> <a href="#"> FAQs</a></li>
+          <li> <a href="#"> Terms of use</a></li>
+          <li> <a href="#"> Privacy policy</a></li>
+        </ul>
+      </div>
+      <ul class="footerOption">
+        <li>
+          <div class="icon"><i class="fas fa-globe"></i></div>
+          <select class="select">
+            <option value="English">English</option>
+            <option value="繁體中文">繁體中文</option>
+          </select>
+        </li>
+        <li>
+          <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+          <select class="select coinType">
+            <option value="USD">USD</option>
+            <option value="TWD">TWD</option>
+          </select>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/vendors.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/member.js"></script>
+  </body>
+</html>
