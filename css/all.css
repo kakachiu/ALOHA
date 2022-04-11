@@ -1150,9 +1150,15 @@ input.input[type=number] {
       .searchContent .filterItem .minPrice {
         border-radius: 4px 0px 0px 4px;
         border-right: 1px solid #eee; } }
+    @media (max-width: 767px) {
+      .searchContent .filterItem .minPrice {
+        border-radius: 4px; } }
     @media (max-width: 992px) {
       .searchContent .filterItem .maxPrice {
         border-radius: 0px 4px 4px 0px; } }
+    @media (max-width: 767px) {
+      .searchContent .filterItem .maxPrice {
+        border-radius: 4px; } }
     .searchContent .filterItem .slider {
       margin-bottom: 23px;
       height: 2px; }
@@ -1734,16 +1740,21 @@ input.input[type=number] {
       padding: 15px;
       text-align: center;
       border-radius: 4px;
-      color: #fff; }
+      color: #fff;
+      cursor: pointer; }
     .phoneContent .flterResult .clearBtn {
       border: 1px solid #fff;
       margin-right: 10px;
       transition: 0.5s; }
+      .phoneContent .flterResult .clearBtn:hover {
+        background-color: #b30000; }
       .phoneContent .flterResult .clearBtn:active {
         background-color: #b30000; }
     .phoneContent .flterResult .filterBtn {
       background-color: #6C51E2;
       transition: 0.5s; }
+      .phoneContent .flterResult .filterBtn:hover {
+        background-color: #5a3bde; }
       .phoneContent .flterResult .filterBtn:active {
         background-color: #5a3bde; }
 
