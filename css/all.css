@@ -91,6 +91,9 @@ select {
   @media (max-width: 767px) {
     .navbar {
       padding: 15px 0px; } }
+  @media (max-width: 393px) {
+    .navbar {
+      padding: 15px; } }
 
 @media (max-width: 767px) {
   .logo {
@@ -511,6 +514,9 @@ input.input[type=number] {
   @media (max-width: 992px) {
     .choices {
       margin-top: 290px; } }
+  @media (max-width: 393px) {
+    .choices {
+      padding: 0 15px; } }
   @media (max-width: 376px) {
     .choices {
       margin-bottom: 80px; } }
@@ -596,16 +602,22 @@ input.input[type=number] {
     left: -20px; }
     @media (max-width: 767px) {
       .choices .swiper-button-prev.prev1, .choices .swiper-button-prev.prev2, .choices .swiper-button-prev.prev3 {
-        top: 280px;
+        top: 300px;
         left: 290px; } }
+    @media (max-width: 393px) {
+      .choices .swiper-button-prev.prev1, .choices .swiper-button-prev.prev2, .choices .swiper-button-prev.prev3 {
+        left: 260px; } }
     @media (max-width: 376px) {
       .choices .swiper-button-prev.prev1, .choices .swiper-button-prev.prev2, .choices .swiper-button-prev.prev3 {
-        top: 325px;
-        left: 250px; } }
-    @media (max-width: 321px) {
+        top: 320px;
+        left: 220px; } }
+    @media (max-width: 360px) {
       .choices .swiper-button-prev.prev1, .choices .swiper-button-prev.prev2, .choices .swiper-button-prev.prev3 {
-        top: 290px;
-        left: 205px; } }
+        top: 300px;
+         } }
+    @media (max-width: 320px) {
+      .choices .swiper-button-prev.prev1, .choices .swiper-button-prev.prev2, .choices .swiper-button-prev.prev3 {
+        left: 170px; } }
     .choices .swiper-button-prev.prev1::after, .choices .swiper-button-prev.prev2::after, .choices .swiper-button-prev.prev3::after {
       font-size: 14px;
       color: #000;
@@ -620,14 +632,14 @@ input.input[type=number] {
     height: 40px; }
     @media (max-width: 767px) {
       .choices .swiper-button-next.next1, .choices .swiper-button-next.next2, .choices .swiper-button-next.next3 {
-        top: 280px;
+        top: 300px;
         right: 0px; } }
     @media (max-width: 376px) {
       .choices .swiper-button-next.next1, .choices .swiper-button-next.next2, .choices .swiper-button-next.next3 {
-        top: 325px; } }
-    @media (max-width: 321px) {
+        top: 320px; } }
+    @media (max-width: 360px) {
       .choices .swiper-button-next.next1, .choices .swiper-button-next.next2, .choices .swiper-button-next.next3 {
-        top: 290px; } }
+        top: 300px; } }
     .choices .swiper-button-next.next1::after, .choices .swiper-button-next.next2::after, .choices .swiper-button-next.next3::after {
       font-size: 14px;
       color: #000;
@@ -645,6 +657,9 @@ input.input[type=number] {
 
 .popularLocation {
   margin-bottom: 48px; }
+  @media (max-width: 393px) {
+      .popularLocation  {
+        padding: 0 15px; } }
   .popularLocation .subTitle {
     margin-bottom: 24px; }
     @media (max-width: 767px) {
@@ -718,6 +733,9 @@ input.input[type=number] {
   @media (max-width: 767px) {
     .inspiration {
       margin-bottom: 90px; } }
+  @media (max-width: 393px) {
+    .inspiration {
+      padding: 0 15px; } }
   @media (max-width: 767px) {
     .inspiration .subTitle {
       font-size: 24px; } }
@@ -735,6 +753,11 @@ input.input[type=number] {
     display: block;
     border-radius: 4px;
     transition: 0.5s; }
+     @media (max-width: 320px) {
+      .inspiration .seeMoreBtn {
+        font-size: 12px;
+      }
+     }
     .inspiration .seeMoreBtn:hover {
       background-color: #6C51E2;
       color: #fff; }
@@ -785,13 +808,18 @@ input.input[type=number] {
     position: absolute;
     left: 285px;
     top: 360px; }
+    @media (max-width: 393px) {
+      .inspirationPhone .swiper-button-prev.prev4 {
+        left: 260px; } }
     @media (max-width: 376px) {
       .inspirationPhone .swiper-button-prev.prev4 {
-        left: 245px; } }
-    @media (max-width: 321px) {
+        left: 220px; } }
+    @media (max-width: 360px) {
       .inspirationPhone .swiper-button-prev.prev4 {
-        left: 200px;
-        top: 315px; } }
+        top: 320px; } }
+    @media (max-width: 320px) {
+      .inspirationPhone .swiper-button-prev.prev4 {
+        left: 170px; } }
     .inspirationPhone .swiper-button-prev.prev4::after {
       font-size: 14px;
       color: #000;
@@ -804,9 +832,9 @@ input.input[type=number] {
     border-radius: 50%;
     width: 40px;
     height: 40px; }
-    @media (max-width: 321px) {
+    @media (max-width: 360px) {
       .inspirationPhone .swiper-button-next.next4 {
-        top: 315px; } }
+        top: 320px; } }
     .inspirationPhone .swiper-button-next.next4::after {
       font-size: 14px;
       color: #000;
@@ -1327,6 +1355,9 @@ input.input[type=number] {
         color: #6C51E2; }
     .searchContent .filterResult .sortResult {
       margin-bottom: 48px; }
+      @media (max-width: 393px) {
+          .searchContent .filterResult .sortResult {
+           padding: 0 10px; } }
       .searchContent .filterResult .sortResult li a {
         display: flex;
         padding-bottom: 25px;
@@ -1528,6 +1559,11 @@ input.input[type=number] {
       display: flex;
       align-items: center;
       justify-content: space-between; }
+      @media (max-width: 393px) {
+        .searchContent .filterResult .pagination {
+          margin: 0 10px;
+         } }
+
       @media (max-width: 321px) {
         .searchContent .filterResult .pagination {
           padding: 16px 10px; } }
@@ -1641,6 +1677,9 @@ input.input[type=number] {
     @media (max-width: 767px) {
       .footerSubscribe .subscribeInput {
         width: 100%; } }
+    @media (max-width: 393px) {
+      .footerSubscribe .subscribeInput {
+        padding: 0 10px; } }
     .footerSubscribe .subscribeInput .input {
       border: none;
       padding: 16px;
@@ -1844,7 +1883,12 @@ input.input[type=number] {
     @media (max-width: 767px) {
       .describe .describeHead {
         flex-wrap: wrap;
-        margin-bottom: 10px; } }
+        margin-bottom: 10px;
+       } }
+     @media (max-width: 393px) {
+      .describe .describeHead {
+        padding: 0 10px; 
+       } }
     .describe .describeHead .title {
       margin-right: 16px; }
   @media (max-width: 767px) {
@@ -1864,14 +1908,27 @@ input.input[type=number] {
     @media (max-width: 767px) {
       .describe .address {
         font-size: 12px;
-        margin-bottom: 16px; } }
+        margin-bottom: 16px;
+       } }
+    @media (max-width: 393px) {
+      .describe .address {
+        padding: 0 10px;
+       } }
   .describe .text {
     font-size: 14px;
     text-align: justify;
     text-justify: inter-ideograph; }
+     @media (max-width: 393px) {
+      .describe .text{
+        padding: 0 10px;
+       } }
 
 .selectRoom {
   margin-bottom: 72px; }
+  @media (max-width: 393px) {
+      .selectRoom {
+        padding: 0 10px;
+       } }
   .selectRoom .title {
     margin-bottom: 24px; }
   .selectRoom .selectBar {
@@ -2029,6 +2086,10 @@ input.input[type=number] {
   padding: 27px 0px;
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 8px 8px 0px 0px; }
+  @media (max-width: 393px) {
+    .editRoomNum {
+      padding: 27px 10px;} }
+
   .editRoomNum.active {
     -webkit-transform: translateY(0%);
             transform: translateY(0%); }
@@ -2245,8 +2306,14 @@ input.input[type=number] {
     @media (max-width: 767px) {
       .reservation .title {
         font-size: 24px; } }
+    @media (max-width: 393px) {
+      .reservation .title   {
+        padding: 0 10px; } }
   .reservation .form {
     margin-bottom: 5px; }
+    @media (max-width: 393px) {
+      .reservation .form  {
+        padding: 0 10px; } }
     .reservation .form label, .reservation .form input {
       display: block; }
     .reservation .form label {
@@ -2402,6 +2469,9 @@ input.input[type=number] {
   @media (max-width: 767px) {
     .received {
       max-width: 390px; } }
+  @media (max-width: 393px) {
+    .received {
+      padding: 0 10px; } }
   @media (max-width: 376px) {
     .received {
       max-width: 350px; } }
@@ -2699,6 +2769,9 @@ body, html {
         width: 100%;
         margin-right: 0;
         order: 2; } }
+    @media (max-width: 393px) {
+      .member .bookings {
+        padding: 0 15px; } }
     .member .bookings .title {
       margin-bottom: 24px; }
     .member .bookings .status {
@@ -2823,6 +2896,9 @@ body, html {
       width: 100%;
       order: 1;
       margin-bottom: 48px; } }
+  @media (max-width: 393px) {
+    .profile {
+      padding: 0 10px;  } }
   .profile .header {
     display: flex;
     align-items: center;
